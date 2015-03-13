@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Subscribed Podcasts\n"
+"POT-Creation-Date: 2015-02-17 11:36+0100\n"
+"PO-Revision-Date: 2015-02-17 11:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: subpod-admin.inc.php:22
+msgid "Your Subscribed Podcasts"
+msgstr "Deine abonnierten Posts"
+
+#: subpod-admin.inc.php:22
+msgid "Subscribed Podcasts"
+msgstr "Abonnierte Podcasts"
+
+#: subpod-admin.inc.php:41
+msgid "Please upload a XML File"
+msgstr "Bitte lade eine XML-Datei hoch"
+
+#: subpod-admin.inc.php:53
+msgid "Please upload a OPML File"
+msgstr "Bitte lade eine OPML-Datei hoch"
+
+#: subpod-admin.inc.php:74
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du hast nicht genügend Rechte um diese Seite zu benutzen."
+
+#: subpod-admin.inc.php:99
+msgid "Your Subscribed Podcasts Settings"
+msgstr "Einstellungen für deine abonnierten Podcasts"
+
+#: subpod-admin.inc.php:103
+msgid "1. Choose or upload an OPML XML file."
+msgstr "1. Wähle eine OPML XML-Datei aus oder lade eine neue hoch."
+
+#: subpod-admin.inc.php:105
+msgid "Upload/Select OPML XML File"
+msgstr "Hochladen/Auswählen einer OPML XML Datei"
+
+#: subpod-admin.inc.php:107
+msgid "2. Save your selection"
+msgstr "2. Speichere deine Auswahl."
+
+#: subpod-admin.inc.php:109
+msgid "Save selection"
+msgstr "Auswahl speichern"
+
+#: subpod-admin.inc.php:115
+#, php-format
+msgid "Next feed refresh will be at %s"
+msgstr "Die Feeds werden das nächste mal am %s aktualisiert"
+
+#: subpod-admin.inc.php:117
+msgid "refresh now"
+msgstr "jetzt aktualisieren"
+
+#: subpod-admin.inc.php:133
+msgid ""
+"No Podcasts fetched now. Upload/choose an OPML File or use the reload button "
+"above."
+msgstr ""
+"Bis jetzt wurden keine Podcasts abgerufen. Lade/wähle eine OPML-Datei hoch/"
+"aus. Order aktualisiere die Podcasts mit dem Button weiter oben."

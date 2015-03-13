@@ -4,7 +4,7 @@
    * Plugin Name: Subscribed Podcasts
    * Plugin URI: https://github.com/sethiele/subscribed-podcasts
    * Description: Display your subscribed podcasts
-   * Version: 0.1.0
+   * Version: 0.1.1
    * Author: Sebastian
    * Author URI: http://sebastian-thiele.net
    * Text Domain: subpod
@@ -55,6 +55,7 @@
   }
   register_deactivation_hook( __FILE__, 'subpod_deactivation' );
 
+  // Chron Job
   add_action( 'subpod_daily_cache_hook', 'subpod_daily_cache' );
   /**
    * On the scheduled action hook, run the function.
@@ -64,6 +65,15 @@
     foreach ($podcasts as $key => $podcast){
       cache_feed($podcast['url'], $podcast['url']);
     }
+  }
+
+  // Settings Link
+  add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'subpod_action_links' );
+
+  function subpod_action_links( $links ) {
+     $links[] = '<a href="'. get_admin_url(null, 'options-general.php?page=subpod') .'">Settings</a>';
+     $links[] = '<a href="https://github.com/sethiele/subscribed-podcasts/issues" target="_blank">Issues</a>';
+     return $links;
   }
 
   // Read Source File

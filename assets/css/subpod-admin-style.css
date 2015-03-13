@@ -1,0 +1,15 @@
+.subpod-opml-upload{
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  background: url('../images/check-green.png');
+}
+
+#upload_image_button,
+#subpod-submit{
+  height: 48px;
+}
+
+.subpod-steps{
+  font-weight: bold;
+}

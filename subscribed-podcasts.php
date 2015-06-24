@@ -4,7 +4,7 @@
    * Plugin Name: Subscribed Podcasts
    * Plugin URI: https://github.com/sethiele/subscribed-podcasts
    * Description: Display your subscribed podcasts
-   * Version: 0.1.1
+   * Version: 0.1.2
    * Author: Sebastian
    * Author URI: http://sebastian-thiele.net
    * Text Domain: subpod
@@ -18,10 +18,10 @@
     load_plugin_textdomain('subpod', false, basename( dirname( __FILE__ ) ) . '/locale' );
   }
 
-  // Upload XML-Files
+  // Upload OPML-Files
   add_filter('upload_mimes', 'subpod_upload_xml');
   function subpod_upload_xml($mimes) {
-      $mimes = array_merge($mimes, array('xml' => 'application/xml'));
+      $mimes = array_merge($mimes, array('opml' => 'application/xml'));
       return $mimes;
   }
 

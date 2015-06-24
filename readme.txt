@@ -48,6 +48,10 @@ Die Übersicht wurde absichtlich nicht gestyled. Das soll ganz dir überlassen w
 2. Listenansicht
 
 == Changelog ==
+= 0.1.2 =
+* **[fix]** 
+ * OPML File upload permissions
+
 = 0.1.1 =
 * **[enh]** 
  * Settings Link
